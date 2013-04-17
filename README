@@ -1,0 +1,19 @@
+DSAA
+Saumya Dwivedi 201001126
+Saumya Choudhary 201001004
+
+
+Just run the start function(without any input). It will execute all the functions.
+
+1)extract_rgb() : This function separates out the r.g.b components and equalizes them independently(red_orig.jpg and so on). The result combined image is in rgb_result.jpg
+
+2)extract_hsv() :This function enhances the image in hue,saturation and value space.The result is in hsv_final.jpg
+
+3)enhance_red() :The function plots a hue plot(for calculating the regions of color(red) required. According to the values obtained, further program gives a saturation value of 0 to all other non-red pixels. We get an enhanced image in red color.
+	The result is in enhance_final.jpg
+
+4)grayscale_effect() :This function computes the grayscale version of the equalised images.It is used to compare the accuracy of a technique of color enhancement(closer it is to original picture.
+
+The results are in gray_orig, gray_rgb, gray_hsv.
+
+5)smooth(image) : Smooth was basically used by us to improve upon the input and output image quality to better see the differences. It is a gaussian filter and takes the image matrix as input.
